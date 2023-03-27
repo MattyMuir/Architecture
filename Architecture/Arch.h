@@ -38,6 +38,7 @@ enum InstructionSet : unsigned short
 	RDRAND =		30 | ECX1,
 	
 	// EDX1 flagged instruction sets
+	TSC =			4 | EDX1,
 	MSR =			5 | EDX1,
 	CX8 =			8 | EDX1,
 	SEP =			11 | EDX1,

@@ -37,6 +37,7 @@ int main()
 	Log(RDRAND);
 
 	// EDX1 flagged 
+	Log(TSC);
 	Log(MSR);
 	Log(CX8);
 	Log(SEP);
